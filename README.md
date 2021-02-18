@@ -25,19 +25,29 @@ reshape the plot (just like k-NN). The closest values are based on Euclidean Dis
 
 This is the code for Customer Segmentation Project made for [EXPOSYS DATA LABS](http://www.exposysdata.com/), Bengaluru.
 
+
 ## Clone Repository
 Clone this Repository using:
 
 	git clone https://github.com/mayursrt/customer-segmentation-using-k-means.git
 
-## Create Environment
-
-Read conda docs on managing environments [here](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
 
 ## Usage
 Install `jupyter` from [here](http://jupyter.readthedocs.io/en/latest/install.html)
 
 Just run `jupyter notebook` in terminal and you can visit the notebook in your web browser.
+
+
+## Create Environment
+
+Create an environment using the `requirements.txt` using pip by using following command:
+
+
+	pip -r requirements.txt
+
+If you need to use conda to create the environment,
+Read conda docs on managing environments [here](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
+
 
 ## Dependencies
 
@@ -49,10 +59,6 @@ Just run `jupyter notebook` in terminal and you can visit the notebook in your w
 
 Install missing dependencies using:
 
-	pip
+	pip install pandas numpy matplotlib seaborn sklearn
 
 
-
-## Credits
-
-The credits for a big part of the code go to [gleydson](https://github.com/gleydson404). I've merely created a wrapper to get people started. 
