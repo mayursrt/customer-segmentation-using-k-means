@@ -27,20 +27,22 @@ This is the code for Customer Segmentation Project made for [EXPOSYS DATA LABS](
 
 
 ## Clone Repository
-Clone this Repository using:
+Clone this Repository using,
 
 	git clone https://github.com/mayursrt/customer-segmentation-using-k-means.git
 
 
 ## Usage
-Install `jupyter` from [here](http://jupyter.readthedocs.io/en/latest/install.html)
+Install `jupyter` from [here](http://jupyter.readthedocs.io/en/latest/install.html) or use
 
-Just run `jupyter notebook` in terminal and you can visit the notebook in your web browser.
+	pip install jupyter
+
+After installing jupyter notebook Just run `jupyter notebook` in terminal and you can visit the notebook in your web browser.
 
 
 ## Create Environment
 
-Create an environment using the `requirements.txt` using pip by using following command:
+Create an environment using the `requirements.txt` using pip by using following command so you dont have to install dependencies one by one,
 
 
 	pip -r requirements.txt
@@ -57,7 +59,7 @@ Read conda docs on managing environments [here](https://docs.conda.io/projects/c
 * seaborn
 * sklearn
 
-Install missing dependencies using:
+Install missing dependencies using,
 
 	pip install pandas numpy matplotlib seaborn sklearn
 
