@@ -56,8 +56,8 @@ Read conda docs on managing environments [here](https://docs.conda.io/projects/c
 * [Pandas](https://pandas.pydata.org/docs/)
 * [NumPy](https://numpy.org/devdocs/user/index.html)
 * [Matplotlib](https://matplotlib.org/3.3.3/contents.html)
-* [Seaborn]()
-* [Sklearn]()
+* [Seaborn](https://seaborn.pydata.org/)
+* [Sklearn](https://scikit-learn.org/stable/)
 
 Install missing dependencies using,
 
